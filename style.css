@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Inter:wght@300;400;500;600;900&display=swap");
 * {
@@ -146,18 +147,33 @@ html, body {
 }
 .wrapp-grid .showcase .container .content h1 {
   font-family: "DM Sans", sans-serif;
-  font-size: 86px;
+  font-size: 96px;
   font-weight: 700;
 }
 .wrapp-grid .showcase .container .content p {
   font-size: 20px;
   font-family: "Inter", sans-serif;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 25px;
+  padding-bottom: 35px;
 }
 .wrapp-grid .showcase .container .content a {
   margin-right: 12px;
 }
 .wrapp-grid .showcase img {
   margin-right: -48px;
+}
+.wrapp-grid .företag {
+  background-color: #FFFFFF;
+}
+.wrapp-grid .företag .container {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  height: 240px;
+}
+.wrapp-grid .företag .container a img {
+  display: block;
+}
+.wrapp-grid .företag .container a:hover {
+  background-color: black;
 }

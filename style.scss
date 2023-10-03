@@ -180,16 +180,15 @@ html, body {
 
                 h1 {
                     font-family: 'DM Sans', sans-serif;
-                    font-size: 86px;
+                    font-size: 96px;
                     font-weight: 700;
                 }
 
                 p {
                     font-size: 20px;
                     font-family: 'Inter', sans-serif;
-                    padding-top: 32px;
-                    padding-bottom: 32px;
-
+                    padding-top: 25px;
+                    padding-bottom: 35px;
                 }
 
                 a {
@@ -202,7 +201,30 @@ html, body {
             margin-right: -48px;
         }
     }
-}
+
+    .företag {
+        background-color: #FFFFFF;
+        
+
+        .container {
+            display: block;
+            justify-content: space-between;
+            align-items: center;
+            height: 240px;
+
+            a {
+
+                img {
+                    display: block;
+                }
+
+                &:hover {
+                    background-color: black;
+                }
+            }
+        }
+    }
+}   
 
 
 

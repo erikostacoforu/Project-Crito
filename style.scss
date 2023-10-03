@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Inter:wght@300;400;500;600;900&display=swap');
 
 * {
     margin: 0;
@@ -7,9 +8,10 @@
 
 .theme-knapp {
     background-color: #f9d783;
+    border: 1px solid  #f9d783;
     text-decoration: none;
     color: #191919;
-    padding: 12px 30px;
+    padding: 18px 30px;
     font-weight: 600;
     border-radius: 30px;
     font-size: 16px;
@@ -22,11 +24,31 @@
     &:hover {
         background-color: #191919;
         color: rgb(208, 206, 206);
+        border-color: #191919;
+    }
+}
+
+.transparent-knapp {
+    background-color: transparent;
+    text-decoration: none;
+    color: #191919;
+    padding: 18px 30px;
+    font-weight: 600;
+    border-radius: 30px;
+    font-size: 16px;
+    border: 1px solid #191919;
+
+    i {
+        margin-left: 8px;
+        font-size: 1.1em; 
     }
 
-    
-
+    &:hover {
+        background-color: #191919;
+        color: rgb(208, 206, 206);
+    }
 }
+
 
 html, body {
     color: #191919;
@@ -42,7 +64,7 @@ html, body {
     grid-template-rows: auto 1fr auto;
 
     header {
-            background-color: #F0EFE9;
+        background-color: #F0EFE9;
         padding: 16px;
         
         .container {
@@ -138,6 +160,46 @@ html, body {
 
 
             }
+
+            .login-knapp {
+                padding-top: 13px;
+                padding-bottom: 13px;
+            }
+        }
+    }
+
+    .showcase {
+        background-color: #F0EFE9;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .content {
+
+                h1 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 86px;
+                    font-weight: 700;
+                }
+
+                p {
+                    font-size: 20px;
+                    font-family: 'Inter', sans-serif;
+                    padding-top: 32px;
+                    padding-bottom: 32px;
+
+                }
+
+                a {
+                    margin-right: 12px;  
+                }
+            }
+        }
+
+        img {
+            margin-right: -48px;
         }
     }
 }

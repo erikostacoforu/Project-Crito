@@ -18,6 +18,12 @@ h3 {
   font-weight: 700;
 }
 
+h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .små-rubriker {
   font-family: "Inter", sans-serif;
   color: #F94D1C;
@@ -43,6 +49,26 @@ h3 {
   background-color: #191919;
   color: rgb(208, 206, 206);
   border-color: #191919;
+}
+
+.svart-knapp {
+  background-color: #191919;
+  border: 1px solid #191919;
+  text-decoration: none;
+  color: rgb(208, 206, 206);
+  padding: 18px 30px;
+  font-weight: 600;
+  border-radius: 30px;
+  font-size: 16px;
+}
+.svart-knapp i {
+  margin-left: 8px;
+  font-size: 1.1em;
+}
+.svart-knapp:hover {
+  background-color: #f9d783;
+  color: #191919;
+  border-color: #f9d783;
 }
 
 .transparent-knapp {
@@ -75,7 +101,6 @@ html, body {
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr auto;
 }
 .wrapp-grid header {
   background-color: #F0EFE9;
@@ -215,14 +240,82 @@ html, body {
   grid-template-columns: 1fr 1fr;
   gap: 30px;
   margin-top: 105px;
-  margin-left: 180px;
+  margin-left: 150px;
 }
 .wrapp-grid .features .container-fluid .feature-list .feature-box-right {
   height: 220px;
   width: 300px;
 }
 .wrapp-grid .features .container-fluid .feature-list i {
-  font-size: 35px;
-  margin-bottom: 30px;
+  font-size: 30px;
+  padding-bottom: 30px;
   padding-top: 15px;
+}
+.wrapp-grid .features .container-fluid .feature-list p {
+  margin-top: 10px;
+}
+.wrapp-grid .about-company .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapp-grid .about-company .container .pic-with-qoute {
+  position: relative;
+}
+.wrapp-grid .about-company .container .pic-with-qoute img {
+  margin-left: 60px;
+}
+.wrapp-grid .about-company .container .pic-with-qoute .qoute-box {
+  position: absolute;
+  background-color: #BEEBFF;
+  width: 370px;
+  height: 180px;
+  top: 395px;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+.wrapp-grid .about-company .container .pic-with-qoute .qoute-box h4 .founder-last {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #F94D1C;
+}
+.wrapp-grid .about-company .container .pic-with-qoute .qoute-box p {
+  margin-top: 20px;
+}
+.wrapp-grid .about-company .container .content-about-company {
+  padding-left: 190px;
+}
+.wrapp-grid .about-company .container .content-about-company h2 {
+  padding-top: 6px;
+}
+.wrapp-grid .about-company .container .content-about-company .about-company-text1 {
+  margin-top: 35px;
+}
+.wrapp-grid .about-company .container .content-about-company .about-company-text2 {
+  margin-top: 35px;
+  padding-bottom: 120px;
+}
+.wrapp-grid .about-company .container .content-about-company a {
+  margin-right: 30px;
+  text-decoration: none;
+  text-align: center;
+}
+.wrapp-grid .about-company .container .content-about-company .button-play-box .play-intro {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #191919;
+  align-items: center;
+}
+.wrapp-grid .about-company .container .content-about-company .button-play-box .play-intro i {
+  margin-right: 8px;
+  font-size: 40px;
+}
+.wrapp-grid .our-service .container-fluid {
+  background-color: #F0EFE9;
+}
+.wrapp-grid .our-service .container-fluid .container .service-boxes {
+  display: flex;
 }

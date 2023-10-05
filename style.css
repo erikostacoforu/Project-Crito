@@ -315,7 +315,56 @@ html, body {
 }
 .wrapp-grid .our-service .container-fluid {
   background-color: #F0EFE9;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
-.wrapp-grid .our-service .container-fluid .container .service-boxes {
+.wrapp-grid .our-service .container-fluid .container .display-boxes {
   display: flex;
+  padding-top: 50px;
+  gap: 30px;
+}
+.wrapp-grid .our-service .container-fluid .container .display-boxes .service-boxes {
+  height: 333px;
+  width: auto;
+  background-color: #ffffff;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+.wrapp-grid .our-service .container-fluid .container .display-boxes .service-boxes .service-linje {
+  width: 40px;
+  height: 2px;
+  background-color: #191919;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.wrapp-grid .our-service .container-fluid .container .display-boxes .service-boxes h3 {
+  padding-bottom: 5px;
+}
+.wrapp-grid .our-service .container-fluid .container .display-boxes .service-boxes a {
+  color: #191919;
+}
+.wrapp-grid .our-service .container-fluid .container .display-boxes .service-boxes a i {
+  font-size: 55px;
+  float: right;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+.wrapp-grid .our-service .container-fluid .container .display-boxes .service-boxes .service-yellow {
+  color: white;
+}
+.wrapp-grid .our-service .container-fluid .container .display-boxes .service-second-yellow {
+  background-color: #F9D783;
+}
+.wrapp-grid .our-service .container-fluid .container .service-browse-center {
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 15px;
+}
+.wrapp-grid .our-service .container-fluid .container .service-browse-center a {
+  padding: 18px 70px;
+}
+.wrapp-grid .our-service .container-fluid .container .service-browse-center a:hover {
+  background-color: #F9D783;
+  color: #191919;
+  border-color: #F9D783;
 }

@@ -368,3 +368,19 @@ html, body {
   color: #191919;
   border-color: #F9D783;
 }
+.wrapp-grid .why-choose-us .container-fluid .container {
+  padding-top: 60px;
+  padding-bottom: 120px;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+.wrapp-grid .why-choose-us .container-fluid .container .why-left-box {
+  width: 447px;
+  height: 630px;
+  border: 1px solid black;
+}
+.wrapp-grid .why-choose-us .container-fluid .grey-box-under-picture {
+  width: 1057px;
+  height: 425px;
+  background-color: #707070;
+}

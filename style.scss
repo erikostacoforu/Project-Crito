@@ -466,5 +466,32 @@ html, body {
                 }    
             }
         }
-    }      
+    }
+    
+    .why-choose-us {
+
+        .container-fluid {
+
+            .container {
+                padding-top: 60px;
+                padding-bottom: 120px;
+                background-color: #ffffff;
+                border: 1px solid black;
+
+                .why-left-box {
+                    width: 447px;
+                    height: 630px;
+                    border: 1px solid black;
+          
+                }
+            }
+
+            .grey-box-under-picture {
+                width: 1057px;
+                height: 425px;
+                background-color: #707070;
+            }
+        }
+
+    }
 }

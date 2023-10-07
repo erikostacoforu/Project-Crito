@@ -90,6 +90,11 @@ h4 {
   color: rgb(208, 206, 206);
 }
 
+.content-center {
+  text-align: center;
+  align-items: center;
+}
+
 html, body {
   color: #191919;
   font-family: "Inter", sans-serif;
@@ -98,7 +103,6 @@ html, body {
 }
 
 .wrapp-grid {
-  height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -228,7 +232,7 @@ html, body {
   margin-left: 100px;
 }
 .wrapp-grid .features .container-fluid .feature-left h2 {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 50px;
 }
 .wrapp-grid .features .container-fluid .feature-left a {
@@ -245,9 +249,10 @@ html, body {
 .wrapp-grid .features .container-fluid .feature-list .feature-box-right {
   height: 220px;
   width: 300px;
+  margin-top: -15px;
 }
 .wrapp-grid .features .container-fluid .feature-list i {
-  font-size: 30px;
+  font-size: 35px;
   padding-bottom: 30px;
   padding-top: 15px;
 }
@@ -287,31 +292,42 @@ html, body {
 .wrapp-grid .about-company .container .content-about-company {
   padding-left: 190px;
 }
-.wrapp-grid .about-company .container .content-about-company h2 {
-  padding-top: 6px;
+.wrapp-grid .about-company .container .content-about-company p {
+  margin-bottom: 20px;
 }
 .wrapp-grid .about-company .container .content-about-company .about-company-text1 {
   margin-top: 35px;
 }
 .wrapp-grid .about-company .container .content-about-company .about-company-text2 {
   margin-top: 35px;
-  padding-bottom: 120px;
+  padding-bottom: 95px;
 }
-.wrapp-grid .about-company .container .content-about-company a {
-  margin-right: 30px;
+.wrapp-grid .about-company .container .content-about-company .parent-knapp {
+  display: flex;
+}
+.wrapp-grid .about-company .container .content-about-company .parent-knapp a {
   text-decoration: none;
-  text-align: center;
 }
-.wrapp-grid .about-company .container .content-about-company .button-play-box .play-intro {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
+.wrapp-grid .about-company .container .content-about-company .parent-knapp a .play-button {
+  font-size: 60px;
+  display: block;
   color: #191919;
-  align-items: center;
 }
-.wrapp-grid .about-company .container .content-about-company .button-play-box .play-intro i {
-  margin-right: 8px;
-  font-size: 40px;
+.wrapp-grid .about-company .container .content-about-company .parent-knapp a p {
+  margin: 0;
+  padding: 18px;
+  text-decoration: none;
+  color: #191919;
+  font-weight: 600;
+  font-size: 16px;
+}
+.wrapp-grid .about-company .container .content-about-company .parent-knapp .button-block {
+  display: block;
+  display: flex;
+  border-radius: 30px;
+}
+.wrapp-grid .about-company .container .content-about-company .parent-knapp .intro-video-gap {
+  margin-left: 40px;
 }
 .wrapp-grid .our-service .container-fluid {
   background-color: #F0EFE9;
@@ -325,7 +341,6 @@ html, body {
 }
 .wrapp-grid .our-service .container-fluid .container .display-boxes .service-boxes {
   height: 333px;
-  width: auto;
   background-color: #ffffff;
   padding-left: 30px;
   padding-right: 20px;
@@ -355,22 +370,23 @@ html, body {
 .wrapp-grid .our-service .container-fluid .container .display-boxes .service-second-yellow {
   background-color: #F9D783;
 }
-.wrapp-grid .our-service .container-fluid .container .service-browse-center {
-  text-align: center;
+.wrapp-grid .our-service .container-fluid .container .content-center {
   margin-top: 75px;
   margin-bottom: 15px;
 }
-.wrapp-grid .our-service .container-fluid .container .service-browse-center a {
+.wrapp-grid .our-service .container-fluid .container a {
   padding: 18px 70px;
 }
-.wrapp-grid .our-service .container-fluid .container .service-browse-center a:hover {
+.wrapp-grid .our-service .container-fluid .container a:hover {
   background-color: #F9D783;
   color: #191919;
   border-color: #F9D783;
 }
+.wrapp-grid .why-choose-us .container-fluid {
+  display: flex;
+}
 .wrapp-grid .why-choose-us .container-fluid .container {
   padding-top: 60px;
-  padding-bottom: 120px;
   background-color: #ffffff;
   border: 1px solid black;
 }
@@ -383,4 +399,42 @@ html, body {
   width: 1057px;
   height: 425px;
   background-color: #707070;
+}
+.wrapp-grid .project-case .container .sektion-title {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+.wrapp-grid .project-case .container .sektion-title p {
+  margin-bottom: 20px;
+}
+.wrapp-grid .project-case .container .project-cases {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.wrapp-grid .project-case .container .project-cases article h3 {
+  padding-top: 40px;
+  padding-bottom: 16px;
+  margin: 0;
+  border-bottom: 1px solid #DAD9D3;
+}
+.wrapp-grid .project-case .container .project-cases article a {
+  display: block;
+  text-align: end;
+  text-decoration: none;
+  color: #191919;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px;
+}
+.wrapp-grid .project-case .container .project-cases article a i {
+  margin-left: 5px;
+  font-size: 1.2em;
+}
+.wrapp-grid .project-case .container .content-center {
+  margin-top: 50px;
+  margin-bottom: 90px;
+  margin-left: 25px;
 }

@@ -305,6 +305,9 @@ html, body {
 .wrapp-grid .about-company .container .content-about-company .parent-knapp {
   display: flex;
 }
+.wrapp-grid .about-company .container .content-about-company .parent-knapp .intro-video-gap {
+  margin-left: 40px;
+}
 .wrapp-grid .about-company .container .content-about-company .parent-knapp a {
   text-decoration: none;
 }
@@ -324,9 +327,6 @@ html, body {
   display: block;
   display: flex;
   border-radius: 30px;
-}
-.wrapp-grid .about-company .container .content-about-company .parent-knapp .intro-video-gap {
-  margin-left: 40px;
 }
 .wrapp-grid .our-service .container-fluid {
   background-color: #F0EFE9;
@@ -489,4 +489,65 @@ html, body {
 }
 .wrapp-grid .meet-our-team .container-fluid .container .dots-center .second-dot-black {
   color: #191919;
+}
+.wrapp-grid .testimonial {
+  background-color: #F0D082;
+  padding-bottom: 120px;
+}
+.wrapp-grid .testimonial .container-fluid {
+  background-color: #ffffff;
+  width: 1520px;
+}
+.wrapp-grid .testimonial .container-fluid .testimonial-header {
+  text-align: center;
+}
+.wrapp-grid .testimonial .container-fluid .testimonial-header p {
+  margin: 0;
+  padding-top: 120px;
+}
+.wrapp-grid .testimonial .container-fluid .testimonial-header h2 {
+  margin: 0;
+  padding-top: 25px;
+}
+.wrapp-grid .testimonial .container-fluid .container .testimonial-flex-boxes {
+  display: flex;
+  padding-top: 40px;
+  gap: 30px;
+}
+.wrapp-grid .testimonial .container-fluid .container .testimonial-flex-boxes .testimonial-box {
+  padding-right: 50px;
+  padding-left: 30px;
+  padding-bottom: 48px;
+  padding-top: 40px;
+}
+.wrapp-grid .testimonial .container-fluid .container .testimonial-flex-boxes .testimonial-box .testimonial-clients-text {
+  margin: 0;
+  padding-top: 25px;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600 italic;
+}
+.wrapp-grid .testimonial .container-fluid .container .testimonial-flex-boxes .testimonial-box i {
+  color: #F94D1C;
+}
+.wrapp-grid .testimonial .container-fluid .container .testimonial-clients {
+  display: flex;
+  padding-top: 35px;
+}
+.wrapp-grid .testimonial .container-fluid .container .testimonial-clients h3 {
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.wrapp-grid .testimonial .container-fluid .container .testimonial-clients p {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: #F94D1C;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+.wrapp-grid .testimonial .container-fluid .container .test {
+  padding-top: 67px;
+  padding-bottom: 135px;
 }

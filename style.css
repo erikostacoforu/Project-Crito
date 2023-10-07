@@ -316,7 +316,6 @@ html, body {
 .wrapp-grid .about-company .container .content-about-company .parent-knapp a p {
   margin: 0;
   padding: 18px;
-  text-decoration: none;
   color: #191919;
   font-weight: 600;
   font-size: 16px;
@@ -413,13 +412,17 @@ html, body {
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
-.wrapp-grid .project-case .container .project-cases article h3 {
+.wrapp-grid .project-case .container .project-cases img {
+  height: auto;
+  width: 100%;
+}
+.wrapp-grid .project-case .container .project-cases h3 {
   padding-top: 40px;
   padding-bottom: 16px;
   margin: 0;
   border-bottom: 1px solid #DAD9D3;
 }
-.wrapp-grid .project-case .container .project-cases article a {
+.wrapp-grid .project-case .container .project-cases a {
   display: block;
   text-align: end;
   text-decoration: none;
@@ -429,12 +432,61 @@ html, body {
   font-weight: 500;
   padding: 15px;
 }
-.wrapp-grid .project-case .container .project-cases article a i {
+.wrapp-grid .project-case .container .project-cases a i {
   margin-left: 5px;
   font-size: 1.2em;
 }
 .wrapp-grid .project-case .container .content-center {
   margin-top: 50px;
   margin-bottom: 90px;
-  margin-left: 25px;
+}
+.wrapp-grid .meet-our-team .container-fluid {
+  background-color: #F0D082;
+}
+.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-header {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-head {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-head h2 {
+  margin: 0;
+  margin-top: 10px;
+}
+.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-head .browse-team {
+  border: 1px solid #191919;
+  padding: 18px 40px;
+}
+.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-head i {
+  margin-left: 30px;
+}
+.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-boxes {
+  display: flex;
+  gap: 30px;
+}
+.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-boxes img {
+  height: auto;
+  width: 100%;
+}
+.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-boxes h3 {
+  margin: 0;
+  margin-top: 30px;
+}
+.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-boxes p {
+  margin: 0;
+  margin-top: 10px;
+}
+.wrapp-grid .meet-our-team .container-fluid .container .dots-center {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  font-size: 12px;
+  gap: 15px;
+  color: #c2aa70;
+}
+.wrapp-grid .meet-our-team .container-fluid .container .dots-center .second-dot-black {
+  color: #191919;
 }

@@ -102,6 +102,14 @@ html, body {
   font-weight: 400;
 }
 
+.container {
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
 .wrapp-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -187,6 +195,12 @@ html, body {
 }
 .wrapp-grid .showcase {
   background-color: #F0EFE9;
+  position: relative;
+}
+.wrapp-grid .showcase .background-line1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 .wrapp-grid .showcase .container {
   display: flex;
@@ -311,11 +325,6 @@ html, body {
 .wrapp-grid .about-company .container .content-about-company .parent-knapp a {
   text-decoration: none;
 }
-.wrapp-grid .about-company .container .content-about-company .parent-knapp a .play-button {
-  font-size: 60px;
-  display: block;
-  color: #191919;
-}
 .wrapp-grid .about-company .container .content-about-company .parent-knapp a p {
   margin: 0;
   padding: 18px;
@@ -327,77 +336,114 @@ html, body {
   display: block;
   display: flex;
   border-radius: 30px;
+  font-size: 60px;
+  color: #191919;
 }
-.wrapp-grid .our-service .container-fluid {
+.wrapp-grid .our-service {
   background-color: #F0EFE9;
   padding-top: 120px;
   padding-bottom: 120px;
+  position: relative;
 }
-.wrapp-grid .our-service .container-fluid .container .display-boxes {
+.wrapp-grid .our-service .background-line2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.wrapp-grid .our-service .container .display-boxes {
   display: flex;
   padding-top: 50px;
   gap: 30px;
 }
-.wrapp-grid .our-service .container-fluid .container .display-boxes .service-boxes {
+.wrapp-grid .our-service .container .display-boxes .service-boxes {
   height: 333px;
   background-color: #ffffff;
   padding-left: 30px;
   padding-right: 20px;
 }
-.wrapp-grid .our-service .container-fluid .container .display-boxes .service-boxes .service-linje {
+.wrapp-grid .our-service .container .display-boxes .service-boxes .service-linje {
   width: 40px;
   height: 2px;
   background-color: #191919;
   margin-top: 45px;
   margin-bottom: 45px;
 }
-.wrapp-grid .our-service .container-fluid .container .display-boxes .service-boxes h3 {
+.wrapp-grid .our-service .container .display-boxes .service-boxes h3 {
   padding-bottom: 5px;
 }
-.wrapp-grid .our-service .container-fluid .container .display-boxes .service-boxes a {
+.wrapp-grid .our-service .container .display-boxes .service-boxes a {
   color: #191919;
 }
-.wrapp-grid .our-service .container-fluid .container .display-boxes .service-boxes a i {
+.wrapp-grid .our-service .container .display-boxes .service-boxes a i {
   font-size: 55px;
   float: right;
   padding-top: 15px;
   padding-right: 10px;
 }
-.wrapp-grid .our-service .container-fluid .container .display-boxes .service-boxes .service-yellow {
+.wrapp-grid .our-service .container .display-boxes .service-boxes .service-yellow {
   color: white;
 }
-.wrapp-grid .our-service .container-fluid .container .display-boxes .service-second-yellow {
+.wrapp-grid .our-service .container .display-boxes .service-second-yellow {
   background-color: #F9D783;
 }
-.wrapp-grid .our-service .container-fluid .container .content-center {
+.wrapp-grid .our-service .container .content-center {
   margin-top: 75px;
   margin-bottom: 15px;
 }
-.wrapp-grid .our-service .container-fluid .container a {
+.wrapp-grid .our-service .container a {
   padding: 18px 70px;
 }
-.wrapp-grid .our-service .container-fluid .container a:hover {
+.wrapp-grid .our-service .container a:hover {
   background-color: #F9D783;
   color: #191919;
   border-color: #F9D783;
 }
-.wrapp-grid .why-choose-us .container-fluid {
-  display: flex;
+.wrapp-grid .why-choose-us {
+  position: relative;
 }
-.wrapp-grid .why-choose-us .container-fluid .container {
+.wrapp-grid .why-choose-us .container {
   padding-top: 60px;
   background-color: #ffffff;
-  border: 1px solid black;
 }
-.wrapp-grid .why-choose-us .container-fluid .container .why-left-box {
+.wrapp-grid .why-choose-us .container .why-left-box {
   width: 447px;
   height: 630px;
-  border: 1px solid black;
 }
-.wrapp-grid .why-choose-us .container-fluid .grey-box-under-picture {
+.wrapp-grid .why-choose-us .container .why-left-box .why-choose-us-boxes .button-block {
+  display: flex;
+  font-size: 60px;
+  color: #191919;
+}
+.wrapp-grid .why-choose-us .container .why-left-box .why-choose-us-boxes i {
+  margin-left: 10px;
+  margin-top: 43px;
+}
+.wrapp-grid .why-choose-us .container .why-left-box .why-choose-us-boxes i h3 {
+  margin: 0;
+  margin-left: 25px;
+  padding-top: 10px;
+}
+.wrapp-grid .why-choose-us .container .why-left-box .why-choose-us-boxes i p {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 25px;
+  padding-top: 10px;
+}
+.wrapp-grid .why-choose-us .container .grey-box-under-picture {
   width: 1057px;
   height: 425px;
-  background-color: #707070;
+  background-color: #F0EFE9;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.wrapp-grid .why-choose-us .container img {
+  position: absolute;
+  right: 300px;
+  top: 90px;
+  z-index: 1;
 }
 .wrapp-grid .project-case .container .sektion-title {
   text-align: center;
@@ -440,45 +486,45 @@ html, body {
   margin-top: 50px;
   margin-bottom: 90px;
 }
-.wrapp-grid .meet-our-team .container-fluid {
+.wrapp-grid .meet-our-team {
   background-color: #F0D082;
 }
-.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-header {
+.wrapp-grid .meet-our-team .container .meet-our-team-header {
   padding-top: 120px;
   padding-bottom: 100px;
 }
-.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-head {
+.wrapp-grid .meet-our-team .container .meet-our-team-head {
   display: flex;
   justify-content: space-between;
 }
-.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-head h2 {
+.wrapp-grid .meet-our-team .container .meet-our-team-head h2 {
   margin: 0;
   margin-top: 8px;
 }
-.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-head .browse-team {
+.wrapp-grid .meet-our-team .container .meet-our-team-head .browse-team {
   border: 1px solid #191919;
   padding: 18px 40px;
 }
-.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-head i {
+.wrapp-grid .meet-our-team .container .meet-our-team-head i {
   margin-left: 30px;
 }
-.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-boxes {
+.wrapp-grid .meet-our-team .container .meet-our-team-boxes {
   display: flex;
   gap: 30px;
 }
-.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-boxes img {
+.wrapp-grid .meet-our-team .container .meet-our-team-boxes img {
   height: auto;
   width: 100%;
 }
-.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-boxes h3 {
+.wrapp-grid .meet-our-team .container .meet-our-team-boxes h3 {
   margin: 0;
   margin-top: 30px;
 }
-.wrapp-grid .meet-our-team .container-fluid .container .meet-our-team-boxes p {
+.wrapp-grid .meet-our-team .container .meet-our-team-boxes p {
   margin: 0;
   margin-top: 10px;
 }
-.wrapp-grid .meet-our-team .container-fluid .container .dots-center {
+.wrapp-grid .meet-our-team .container .dots-center {
   display: flex;
   justify-content: center;
   padding-top: 50px;
@@ -487,7 +533,7 @@ html, body {
   gap: 15px;
   color: #c2aa70;
 }
-.wrapp-grid .meet-our-team .container-fluid .container .dots-center .dot-black {
+.wrapp-grid .meet-our-team .container .dots-center .dot-black {
   color: #191919;
 }
 .wrapp-grid .testimonial {
@@ -603,6 +649,12 @@ html, body {
 }
 .wrapp-grid .news-update {
   background-color: #F0EFE9;
+  position: relative;
+}
+.wrapp-grid .news-update .background-line3 {
+  position: absolute;
+  bottom: 60px;
+  right: 0;
 }
 .wrapp-grid .news-update .container .news-update-line {
   display: flex;
@@ -613,8 +665,27 @@ html, body {
 .wrapp-grid .news-update .container .news-update-line h2 {
   margin: 0;
 }
+.wrapp-grid .news-update .container .news-update-line .username-button {
+  margin-left: 200px;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #8c8c8c;
+  padding: 18px 55px;
+  font-weight: 400;
+  border-radius: 30px;
+  font-size: 16px;
+}
+.wrapp-grid .news-update .container .news-update-line .subscribe-button {
+  margin-right: 50px;
+}
 .wrapp-grid .footer {
   background-color: #0E1021;
+  position: relative;
+}
+.wrapp-grid .footer .background-line4 {
+  position: absolute;
+  bottom: 84px;
+  right: 0;
 }
 .wrapp-grid .footer .container .footer-box-flex {
   display: flex;

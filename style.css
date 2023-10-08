@@ -601,3 +601,100 @@ html, body {
 .wrapp-grid .article-news .container .dots-center2 .dot-black {
   color: #191919;
 }
+.wrapp-grid .news-update {
+  background-color: #F0EFE9;
+}
+.wrapp-grid .news-update .container .news-update-line {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+.wrapp-grid .news-update .container .news-update-line h2 {
+  margin: 0;
+}
+.wrapp-grid .footer {
+  background-color: #0E1021;
+}
+.wrapp-grid .footer .container .footer-box-flex {
+  display: flex;
+}
+.wrapp-grid .footer .container .footer-box-flex .footer-box1 {
+  width: 309px;
+  padding-top: 115px;
+}
+.wrapp-grid .footer .container .footer-box-flex p {
+  color: #b6b6bc;
+  margin: 0;
+  padding-top: 30px;
+}
+.wrapp-grid .footer .container .footer-box-flex h3 {
+  margin: 0;
+  color: #ffffff;
+}
+.wrapp-grid .footer .container .footer-box-flex a {
+  text-decoration: none;
+  color: #b6b6bc;
+}
+.wrapp-grid .footer .container .footer-box-flex .footer-box-flex2 {
+  display: flex;
+  padding-top: 130px;
+  padding-bottom: 88px;
+}
+.wrapp-grid .footer .container .footer-box-flex .footer-box-flex2 .footer-boxes1 {
+  width: 156px;
+  margin-left: 107px;
+}
+.wrapp-grid .footer .container .footer-box-flex .footer-box-flex2 .footer-boxes2 {
+  width: 191px;
+  margin-left: 60px;
+}
+.wrapp-grid .footer .container .footer-box-flex .footer-box-flex2 .footer-boxes3 {
+  width: 164px;
+  margin-left: 65px;
+}
+.wrapp-grid .footer .container .footer-box-flex .footer-box-flex2 .footer-boxes4 {
+  width: 164px;
+  margin-left: 107px;
+}
+.wrapp-grid .footer .container .footer-box-flex .footer-box-flex2 ul {
+  padding: 0;
+}
+.wrapp-grid .footer .container .footer-box-flex .footer-box-flex2 ul li {
+  list-style-type: none;
+}
+.wrapp-grid .footer .container .footer-box-flex .footer-box-flex2 ul li .footer-first-link {
+  margin-top: 40px;
+}
+.wrapp-grid .footer .container .footer-box-flex .footer-box-flex2 p {
+  margin: 0;
+  padding: 0;
+  margin-top: 25px;
+}
+.wrapp-grid .footer .container-fluid {
+  padding: 0;
+}
+.wrapp-grid .footer .container-fluid hr {
+  width: 100%;
+  height: 2px;
+  background-color: #b6b6bc;
+  margin: 0;
+}
+.wrapp-grid .footer .container-fluid .container .footer-social-flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+.wrapp-grid .footer .container-fluid .container .footer-social-flex p {
+  margin: 0;
+  color: #b6b6bc;
+}
+.wrapp-grid .footer .container-fluid .container .footer-social-flex .social-icons-footer a {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+.wrapp-grid .footer .container-fluid .container .footer-social-flex .social-icons-footer a:hover {
+  color: #b6b6bc;
+}
